@@ -1,0 +1,99 @@
+body {
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+
+h1 {
+  color: cornflowerblue;
+  font-size: 50px;
+}
+
+hr {
+  margin: 50px;
+}
+
+.me {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  color: rgb(237, 100, 166);
+  opacity: 0.5;
+}
+
+label,
+input {
+  font-size: 25px;
+}
+
+input {
+  text-align: center;
+  opacity: 0.5;
+  color: deepskyblue;
+  border-style: dotted;
+  border-color: cornflowerblue;
+}
+
+input:focus {
+  outline: none; /* 기본 파란 테두리 제거 */
+  border: 2px solid rgb(237, 100, 166); /* 원하는 테두리 스타일 지정 */
+  border-radius: 10px; /* 선택: 모서리 둥글게 */
+}
+
+button {
+  margin: 0 40px;
+  padding: 10px 20px;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+button:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 눌렀을 때 더 작게 */
+}
+
+button:hover {
+  background-color: rgb(237, 100, 166);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.8); /* hover 시 그림자 진하게 */
+  transform: translateY(-2px);
+}
+
+select {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid rgb(196, 229, 240);
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: rgb(255, 200, 226);
+  color: #333;
+  cursor: pointer;
+}
+
+select:hover {
+  border-color: rgb(255, 165, 207);
+}
+
+select:focus {
+  outline: none;
+  border-color: rgb(255, 183, 217);
+  box-shadow: 0 0 5px rgba(194, 94, 140, 0.5);
+}
+
+option {
+  font-size: 12px;
+  background-color: aliceblue;
+  color: #333;
+  padding: 10px;
+}
